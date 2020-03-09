@@ -1,7 +1,9 @@
-body a {
+body {
 font-family: 'Avenir','Helvetica Neue','Helvetica','Arial','Hiragino Sans','ヒラギノ角ゴシック','Yu Gothic','メイリオ','ＭＳ Ｐゴシック','MS PGothic';
-text-decoration: none;
 background-color: #ddd;
+}
+body a {
+text-decoration: none;
 }
 #headmenu {
 font-weight: bold;
