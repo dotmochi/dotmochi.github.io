@@ -22,23 +22,7 @@ display: inline-block;
 width: auto;
 height: 100px;
 padding: 50px 50px;
-margin: auto 0;
-text-decoration: none;
-}
-.menu a:hover {
-display: inline-block;
-width: auto;
-height: 100px;
-padding: 50px 50px;
-margin: auto 0;
-text-decoration: none;
-}
-.menu a:vitited {
-display: inline-block;
-width: auto;
-height: 100px;
-padding: 50px 50px;
-margin: auto 0;
+margin: 0;
 text-decoration: none;
 }
 .lang {
