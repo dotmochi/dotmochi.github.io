@@ -15,7 +15,7 @@ left: 0;
 text-align: center;
 background-color: #99CC33;
 }
-.menu a:link, .menu a:hover {
+.menu a:link, :visited, :hover {
 display: inline-block;
 width: auto;
 height: 100px;
