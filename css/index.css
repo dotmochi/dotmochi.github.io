@@ -14,7 +14,7 @@ left: 0;
 text-align: center;
 background-color: #99CC33;
 }
-.menu a:link, :hover {
+.menu a:link, a:hover {
 display: inline-block;
 width: auto;
 height: 100px;
