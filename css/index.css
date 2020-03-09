@@ -1,4 +1,4 @@
-body a{
+body a {
 font-family: 'Avenir','Helvetica Neue','Helvetica','Arial','Hiragino Sans','ƒqƒ‰ƒMƒmŠpƒSƒVƒbƒN',YuGothic,'Yu Gothic','ƒƒCƒŠƒI', Meiryo,'‚l‚r ‚oƒSƒVƒbƒN','MS PGothic';
 text-decoration: none;
 }
@@ -20,4 +20,11 @@ width: auto;
 height: 100px;
 padding: 50px 50px;
 margin: auto 0;
+}
+#content {
+display: block;
+width: 80%;
+height: auto;
+padding: 20px;
+margin: 200px 0;
 }
