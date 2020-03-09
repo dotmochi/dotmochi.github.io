@@ -1,6 +1,7 @@
 body a {
 font-family: 'Avenir','Helvetica Neue','Helvetica','Arial','Hiragino Sans','ヒラギノ角ゴシック','Yu Gothic','メイリオ','ＭＳ Ｐゴシック','MS PGothic';
 text-decoration: none;
+  background-color: #ddd;
 }
 #headmenu {
 font-weight: bold;
@@ -40,4 +41,5 @@ width: 80%;
 height: auto;
 padding: 20px;
 margin: 200px 0;
+background-color: #fff;
 }
