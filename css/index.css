@@ -1,5 +1,5 @@
 body a {
-font-family: 'Avenir','Helvetica Neue','Helvetica','Arial','Hiragino Sans','ƒqƒ‰ƒMƒmŠpƒSƒVƒbƒN',YuGothic,'Yu Gothic','ƒƒCƒŠƒI', Meiryo,'‚l‚r ‚oƒSƒVƒbƒN','MS PGothic';
+font-family: 'Avenir','Helvetica Neue','Helvetica','Arial','Hiragino Sans','ãƒ’ãƒ©ã‚®ãƒè§’ã‚´ã‚·ãƒƒã‚¯',YuGothic,'Yu Gothic','ãƒ¡ã‚¤ãƒªã‚ª', Meiryo,'ï¼­ï¼³ ï¼°ã‚´ã‚·ãƒƒã‚¯','MS PGothic';
 text-decoration: none;
 }
 #headmenu {
@@ -15,7 +15,7 @@ text-align: center;
 background-color: #99CC33;
 }
 .menu a {
-display: block;
+display: inline-block;
 width: auto;
 height: 100px;
 padding: 50px 50px;
