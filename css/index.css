@@ -14,12 +14,13 @@ left: 0;
 text-align: center;
 background-color: #99CC33;
 }
-.menu a {
+.menu a:link, :hover {
 display: inline-block;
 width: auto;
 height: 100px;
 padding: 50px 50px;
 margin: auto 0;
+text-decoration: none;
 }
 #content {
 display: block;
