@@ -1,7 +1,10 @@
 body a{
-text-decolation: none;
+font-family: 'Avenir','Helvetica Neue','Helvetica','Arial','Hiragino Sans','ƒqƒ‰ƒMƒmŠpƒSƒVƒbƒN',YuGothic,'Yu Gothic','ƒƒCƒŠƒI', Meiryo,'‚l‚r ‚oƒSƒVƒbƒN','MS PGothic';
+text-decoration: none;
 }
 #headmenu {
+font-weight: bold;
+font-size: 12pt;
 width: 100%;
 height: 200px;
 display: block;
