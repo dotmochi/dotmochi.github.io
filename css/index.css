@@ -14,13 +14,25 @@ left: 0;
 text-align: center;
 background-color: #99CC33;
 }
-.menu a:link, a:hover {
+.menu a:link, .menu a:hover {
 display: inline-block;
 width: auto;
 height: 100px;
 padding: 50px 50px;
 margin: auto 0;
 text-decoration: none;
+}
+.lang {
+  display: inline-block;
+  padding: 0;
+  margin: 0 30px;
+}
+.lang a:link, .lang a:hover {
+  display: inline-block;
+  width: auto;
+  height: auto;
+  padding: 50px 10px;
+  margin: 0;
 }
 #content {
 display: block;
