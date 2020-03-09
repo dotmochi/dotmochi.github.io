@@ -1,7 +1,7 @@
 body a {
 font-family: 'Avenir','Helvetica Neue','Helvetica','Arial','Hiragino Sans','ヒラギノ角ゴシック','Yu Gothic','メイリオ','ＭＳ Ｐゴシック','MS PGothic';
 text-decoration: none;
-  background-color: #ddd;
+background-color: #ddd;
 }
 #headmenu {
 font-weight: bold;
@@ -42,4 +42,13 @@ height: auto;
 padding: 20px;
 margin: 200px 0;
 background-color: #fff;
+}
+#mainciska {
+  width: 200px;
+  height: auto;
+  margin: 5px;
+  float: left;
+}
+.clr {
+  clear: both;
 }
