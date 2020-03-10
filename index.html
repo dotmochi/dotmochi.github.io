@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <title>Dot Mochi</title>
 <link rel="stylesheet" href="css/index.css" type="text/css">
-<script>console.log("ちゃんとスタイル適用してね。");</script>
+
 </head>
  
 <body>
@@ -22,7 +22,7 @@
   </span>
 <br class="clr">
 </div>
- <img src="image/mainciska.png" id="mainciska" alt="シスカ">
+<div id="mainciska" class="js-rellax" data-rellax-speed="-8"></div> 
 <div id="content">
  <h1>どっともちのホームページ</h1>
  <p id="hello">
@@ -37,5 +37,9 @@
  </p>
 
 </div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/rellax/1.9.1/rellax.min.js"></script>
+<script>
+    var rellax = new Rellax('.js-rellax');
+</script>
 </body>
 </html>
