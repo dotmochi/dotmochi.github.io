@@ -12,66 +12,109 @@ color: #aaa;
 z-index: 2;
 font-family: 'Noto Sans JP','Hiragino Kaku Gothic Pro','ÉqÉâÉMÉmäpÉS Pro W3','ÉÅÉCÉäÉI',Meiryo,'ÇlÇr ÇoÉSÉVÉbÉN',sans-serif;
 font-weight: bold;
-font-size: 12pt;
-width: 80%;
-height: 100px;
 display: block;
-padding: 0 10%;
-margin: 0;
-position: absolute;
-top: 0;
-left: 0;
 text-align: center;
 background-color: #abdc48;
-}
-#domochilab {
-display: inline-block;
-height: 50px;
-width: auto;
-padding: 25px 20px;
-margin: 0;
-vertical-align: top;
 }
 #menu {
 float: left;
 }
+
 #menu a {
-color: #111;
-font-weight: bold;
-font-size: 16px;
-display: inline-block;
-vertical-align: top;
-position: relative;
-width: auto;
-height: 16px;
-padding: 42px 20px;
-margin: 0;
-text-decoration: none;
-transition-duration: 0.1s;
-transition-property: background-color, color;
-transition-timing-function: linear;
+color: #111; /*Å@ïœÇ¶Ç»Ç¢Å@*/
+font-weight: bold; /*Å@ïœÇ¶Ç»Ç¢Å@*/
+display: inline-block; /*Å@ïœÇ¶Ç»Ç¢Å@*/
+vertical-align: top; /*Å@ïœÇ¶Ç»Ç¢Å@*/
+text-decoration: none; /*Å@ïœÇ¶Ç»Ç¢Å@*/
 }
 #menu a:hover {
 background-color: #fff;
-color: 
 }
-#menu a img {
-transition-duration: 0.1s;
-transition-property: top, opacity;
-transition-timing-function: linear;
-display: block;
-position: absolute;
-top: 30px;
-right: -20px;
-opacity: 0;
+
+
+@media screen and (max-width: 500px) {
+ #headmenu {
+ width: 100%;
+ height: 15%;
+ font-size: 12pt;
+ padding: 0;
+ margin: 0;
+ position: fixed;
+ bottom: 0;
+ left: 0;
+ }
+ #domochilab {
+ display: none;
+ }
+ #menu a {
+ display: inline-block;
+ position: relative;
+ width: 20%;
+ height: 100%;
+ padding: 0;
+ margin: 0;
+ }
+ #menu a img {
+ display: none;
+ }
 }
-#menu a:hover img {
-display: block;
-position: absolute;
-top: 75px;
-right: -20px;
-opacity: 1;
+
+
+@media screen and (min-width: 501px) {
+ #headmenu {
+ width: 80%;
+ height: 100px;
+ font-size: 12pt;
+ padding: 0 10%;
+ margin: 0;
+ position: absolute;
+ top: 0;
+ left: 0;
+ }
+ #domochilab {
+ display: inline-block;
+ height: 50px;
+ width: auto;
+ padding: 25px 20px;
+ margin: 0;
+ vertical-align: top;
+ }
+ #menu a {
+ display: inline-block;
+ font-size: 16px;
+ position: relative;
+ width: auto;
+ height: 16px;
+ padding: 42px 20px;
+ margin: 0;
+ transition-duration: 0.1s;
+ transition-property: background-color, color;
+ transition-timing-function: linear;
+ }
+ #menu a img {
+ transition-duration: 0.1s;
+ transition-property: top, opacity;
+ transition-timing-function: linear;
+ display: block;
+ position: absolute;
+ top: 30px;
+ right: -20px;
+ opacity: 0;
+ }
+ #menu a:hover img {
+ display: block;
+ position: absolute;
+ top: 75px;
+ right: -20px;
+ opacity: 1;
 }
+}
+
+
+
+
+
+
   
 #lang {
   display: inline-block;
