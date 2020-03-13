@@ -1,5 +1,5 @@
 body {
-font-family: 'Avenir','Helvetica Neue','Helvetica','Arial', 'ƒƒCƒŠƒI', Meiryo,'‚l‚r ‚oƒSƒVƒbƒN','MS PGothic';
+font-family: 'Avenir','Helvetica Neue','Helvetica','Arial', 'ãƒ¡ã‚¤ãƒªã‚ª', Meiryo,'ï¼­ï¼³ ï¼°ã‚´ã‚·ãƒƒã‚¯','MS PGothic';
 background-color: #fafafa;
 }
 body a {
@@ -10,7 +10,7 @@ color: #aaa;
 }
 #headmenu {
 z-index: 2;
-font-family: 'Noto Sans JP','Hiragino Kaku Gothic Pro','ƒqƒ‰ƒMƒmŠpƒS Pro W3','ƒƒCƒŠƒI',Meiryo,'‚l‚r ‚oƒSƒVƒbƒN',sans-serif;
+font-family: 'Noto Sans JP','Hiragino Kaku Gothic Pro','ãƒ’ãƒ©ã‚®ãƒè§’ã‚´ Pro W3','ãƒ¡ã‚¤ãƒªã‚ª',Meiryo,'ï¼­ï¼³ ï¼°ã‚´ã‚·ãƒƒã‚¯',sans-serif;
 font-weight: bold;
 display: block;
 text-align: center;
@@ -21,11 +21,11 @@ float: left;
 }
 
 #menu a {
-color: #111; /*@•Ï‚¦‚È‚¢@*/
-font-weight: bold; /*@•Ï‚¦‚È‚¢@*/
-display: inline-block; /*@•Ï‚¦‚È‚¢@*/
-vertical-align: top; /*@•Ï‚¦‚È‚¢@*/
-text-decoration: none; /*@•Ï‚¦‚È‚¢@*/
+color: #111; /*ã€€å¤‰ãˆãªã„ã€€*/
+font-weight: bold; /*ã€€å¤‰ãˆãªã„ã€€*/
+display: inline-block; /*ã€€å¤‰ãˆãªã„ã€€*/
+vertical-align: top; /*ã€€å¤‰ãˆãªã„ã€€*/
+text-decoration: none; /*ã€€å¤‰ãˆãªã„ã€€*/
 }
 #menu a:hover {
 background-color: #fff;
@@ -147,12 +147,12 @@ padding: 5%;
 background-color: #fff;
 color: #333;
 position: absolute;
-top: 150%;
+top: 10%;
 left: 10%;
 z-index: 1;
 }
 h1 {
-font-family: 'Avenir','Helvetica Neue','Helvetica','Arial', 'ƒƒCƒŠƒI', Meiryo,'‚l‚r ‚oƒSƒVƒbƒN','MS PGothic';
+font-family: 'Avenir','Helvetica Neue','Helvetica','Arial', 'ãƒ¡ã‚¤ãƒªã‚ª', Meiryo,'ï¼­ï¼³ ï¼°ã‚´ã‚·ãƒƒã‚¯','MS PGothic';
 font-size: 30px;
 color: #333;
 border-width: 0px 0px 0px 20px;
