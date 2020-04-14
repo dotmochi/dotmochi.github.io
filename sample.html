@@ -9,7 +9,7 @@
       $count = 0;
       $files = count(glob("/imgsample/img200414/*.jpg"));
       while ($count <= $files) {
-        echo "<img src='/imgsample/img200414/$count.jpg' alt=''>";
+        echo "<img src="/imgsample/img200414/$count.jpg">";
         echo "<br>";
         $count++ ;
       }
