@@ -7,7 +7,7 @@
   <body>
     <?php
       $count = 0;
-      $files = count(glob("/img/*.jpg"));
+      $files = count(glob("/imgsample/img200414/*.jpg"));
       echo "<p>while文</p>";
       while ($count <= $files) {
         echo "<img src='img/$count.jpg' alt=''>";
