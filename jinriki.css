@@ -12,11 +12,26 @@ body {
     height: 100%;
     width: 100%;
     overflow: auto;
+text-align: center;
+background-color: #fdfdfd;
 }
+@media only screen and (min-width: 751px) {
 .page {
-  height: 80%;
+  height: auto;
+  width: 45%;
+margin: 0;
+padding: 0;
+}
+}
+@media only screen and (max-width: 750px) {
+.page {
+  height: 95%;
   width: auto;
+margin: 0;
+padding: 0;
+}
 }
 p {
     color: red;
 }
+
