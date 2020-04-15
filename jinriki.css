@@ -17,3 +17,6 @@ body {
   height: 80%;
   width: auto;
 }
+p {
+    color: red;
+}
